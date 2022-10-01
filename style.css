@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'Fraunces', serif;
+    color: black;
+}
+
+html, body{
+    background-color: #212c36;
+    height: 300vh;
+}
+
+section{
+    position: relative;
+    height: 200vh;
+    width: 100%;
+}
+
+section:nth-child(2){
+    top: -100vh;
+}
+
+section:nth-child(3){
+    top: -200vh;
+}
+section:nth-child(4){
+    top: -300vh;
+    height: 100vh;
+}
+
+.sticky{
+    position: sticky;
+    width: 100%;
+    height: 100vh;
+    top: 10px;
+    padding: 2rem;
+    will-change: filter, transform;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #edf5e1;
+    border-radius: 10px;
+    padding: 1rem;
+    overflow: scroll;
+}
+
+.container h1{
+
+    font-weight: 600;
+}
